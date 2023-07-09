@@ -1,0 +1,56 @@
+<html>
+    <head>
+      <title>Pomodoro Clock</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="container">
+            <div class="upper">
+                
+                    <h1 id="display_time">
+                        
+                        <p id="mm">0</p>
+                        <p>:</p>
+                      
+                        <p id="ss">0</p>
+                    </h1>
+           
+                <h2 class="words">Session</h2>
+            </div>
+            <hr>
+
+            
+            <div class="bottom">
+                    <div class="bottom-1">
+                       <div class="bottom-1-left">
+                              <h3 class="words">Session Time</h3>
+                              <h1
+                              id="session_time" class="words">0 min</h1>
+                              <div>
+                                <button id="session_minus" class="btn">-</button>
+                                <button id="session_plus" class="btn">+</button>
+                              </div>
+                       </div>
+                       <div class="bottom-1-right">
+                              <h3 class="words">Break Time</h3>
+                              <h1 id="break_time" class="words">0 min</h1>
+                              <div>
+                                <button id="break_minus" class="btn">-</button>
+                                <button id="break_plus" class="btn">+</button>
+                              </div>
+                       </div>
+                    </div>
+                    <hr>
+                    <div class="bottom-2">
+                        <div class="bottom-2-left">
+                             <button id="pause_btn" class="btn">Start</button>
+                        </div>
+                        <div class="bottom-2-right">
+                            <button id="reset_btn" class="btn">Reset</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+    <script src="pomodoro.js"></script>
+</html>
